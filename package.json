@@ -2,6 +2,8 @@
   "name": "github-cloudflare-dispatch-webhook",
   "version": "0.0.0",
   "devDependencies": {
+    "@cloudflare/workers-types": "^3.14.1",
+    "typescript": "^4.8.2",
     "wrangler": "2.0.27"
   },
   "private": true,
