@@ -1,0 +1,3 @@
+setup:
+  project: github-cloudflare-dispatch-webhook
+  config: cf

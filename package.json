@@ -1,0 +1,14 @@
+{
+  "name": "github-cloudflare-dispatch-webhook",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.0.27"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "setup": "yarn setup-doppler",
+    "setup-doppler": "doppler setup --no-interactive"
+  }
+}
